@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
+    "preview": "vite preview --host 0.0.0.0 --port $PORT",
+    "start": "vite preview --host 0.0.0.0 --port $PORT"
     "server": "json-server -p 3001 db.json"
   },
   "dependencies": {
@@ -15,11 +16,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
-  "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "start": "vite preview"
-},
+
   "devDependencies": {
     "@eslint/js": "^9.21.0",
     "@types/react": "^19.0.10",
