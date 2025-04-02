@@ -16,7 +16,9 @@
     "react-dom": "^19.0.0"
   },
   "scripts": {
-  "start": "react-scripts start"
+  "dev": "vite",
+  "build": "vite build",
+  "start": "vite preview"
 },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
